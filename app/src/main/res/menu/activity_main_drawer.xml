@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/dietPlan"
+            android:icon="@drawable/ic_local_dining_black_24dp"
+            android:title="@string/diet_plan" />
+        <item
+            android:id="@+id/loseWeight"
+            android:title="Lose weight in 7 days" />
+
+        <item
+            android:title="Tools"
+            android:icon="@drawable/ic_menu_manage">
+            <menu>
+                <item
+                    android:id="@+id/bmi"
+                    android:title="BMI calculator" />
+                <item
+                    android:id="@+id/calorie"
+                    android:title="Calorie calulator" />
+            </menu>
+        </item>
+    </group>
+    <item
+        android:id="@+id/nav_share"
+        android:icon="@drawable/ic_menu_share"
+        android:title="Share" />
+
+</menu>

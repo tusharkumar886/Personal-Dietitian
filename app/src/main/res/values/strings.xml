@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Personal Dietitian</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="diet_plan">Diet Plan</string>
+    <string name="mailId">tusharkumar886@gmail.com</string>
+    <string name="title_activity_daily_diet">Daily Diet</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>
