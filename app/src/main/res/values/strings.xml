@@ -7,9 +7,46 @@
     <string name="action_settings">Settings</string>
 
     <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="diet_plan">Diet Plan</string>
+    <string name="diet_plan">Weekly Diet Plan</string>
     <string name="mailId">tusharkumar886@gmail.com</string>
     <string name="title_activity_daily_diet">Daily Diet</string>
     <string name="section_format">Hello World from section: %1$d</string>
+    <string name="breakfast">Breakfast: 9 A.M.</string>
+    <string name="breakfastMonday">• 1.5 cups raw oatmeal \n• 1 cup skim milk &#189; cup dried cranberries or raisins\n• 2 whole wheat bread \n750 calories, 35 g protein, 90 g carbs, 18 g fat</string>
+    <string name="snack1">Mid Morning Snack: 11 A.M.</string>
+    <string name="snack1Monday">• 1 cup skim milk\n• 1 large piece of fruit with 1 TBS natural peanut butter\n• 1 low-fat mozzarella stick\n500 calories, 30 g protein, 30 g carbs, 18 g fat</string>
+    <string name="lunch">Lunch: 2 P.M.</string>
+    <string name="lunchMonday">• 2 cups egg salad on 2 whole wheat pitas\n• 1 banana\n600 calories; 74 g protein, 16 g carbs, 30 g fat</string>
+    <string name="snack2">Afternoon Snack: 5 P.M.</string>
+    <string name="snack2Monday">• 1 cup low-fat vanilla yogurt\n• 1 cup fat-free cottage cheese\n• 1 TBS honey\n600 calories, 38 g protein, 80 g carbs, 2.5 g fat</string>
+    <string name="dinner">Dinner: 8 P.M.</string>
+    <string name="dinnerMonday">• 6 oz grilled salmon\n• 1 large sweet potato\n• 1 cup cut green beans\n• 1 cup skim milk\n700 calories, 45 g protein, 70 g carbs, 20 g fat</string>
+    <string name="breakfastTuesday">4 Whole grain frozen waffles\n2 TBS pure maple syrup\n1 cup low-fat cottage cheese\n1 cup fresh strawberries\n625 calories, 40 g protein, 90 g carbs, 6 g fat</string>
+    <string name="snack1Tuesday">Peanut butter, banana and honey sandwich\n2 pieces whole grain bread\n2 TBS banana\n1 whole banana\n2 TBS honey\n2 cups non-fat milk\n600 calories, 25 g protein, 85 g carbs, 18 g fat</string>
+    <string name="lunchTuesday">Vegetable Pasta\n1 cup non-fat milk\n700 calories, 25 g protein, 125 g carbs, 11 g fat</string>
+    <string name="snack2Tuesday">Milk Shake mixed with 1 cup non-fat milk, 1 cup frozen fruit\nAdd water to desired consistency\n650 calories, 50 g protein, 45 g carbs, 28 g fat</string>
+    <string name="dinnerTuesday">8 oz chicken breast\n2 large sweet potatoes or yams\n1 cup collard greens or swiss chard\n700 calories, 55 g protein, 95 g carbs, 5 g fat</string>
+    <string name="breakfastWed">Vegetable omelet\n(2 whole eggs, 2 egg whites, &#189; cup shredded fat-free cheese, &#189; cup diced vegetables of your choice)\n2 slices 12-grain bread\n1 cup non-fat milk\n1 fresh orange\n700 calories, 30 g protein, 60 g carbs, 20 g fat</string>
+    <string name="snack1Wed">1 can tuna fish\n2 cups cooked brown rice\nSalsa to taste\n1 medium plum\n700 calories, 40 g protein, 100 g carbs, 5 g fat</string>
+    <string name="lunchWed">Chicken and cheese sandwich \n1 small bunch red grapes\n650 calories, 55 g protein, 80 g carbs, 10 g fat</string>
+    <string name="snack2Wed">1 cup skim milk\n2 cups frozen fruit\nWater to desired consistency\n675 calories, 50 g protein, 80 g carbs, 18 g fat</string>
+    <string name="dinnerWed">16 oz grilled pork chop\n1 cup broccoli\n2 cups whole grain, brown rice\n650 calories, 38 g protein, 43 g carbs, 14 g fat</string>
+    <string name="breakfastThurs">Oat bran waffles\n1 cup skim milk\n615 calories, 49 g protein, 71 g carbs, 15 g fat</string>
+    <string name="snack1Thurs">Protein shake\n1 cup skim milk\n2 large pieces of fruit\n658 calories, 40 g protein, 84 g carbs, 18 g fat</string>
+    <string name="snack2Thurs">Protein shake\n1 cup skim milk\n2 large pieces of fruit\n658 calories, 40 g protein, 84 g carbs, 18 g fat</string>
+    <string name="lunchThursday">Tuna and cheese sandwich (2 slices 12-grain bread, 4 oz tuna-drained, 1 thin 2-oz slice cheddar cheese, non-fat mayo, lettuce, tomato)\n1 large pear\n610 calories, 44 g protein, 77 g carbs, 14 g fat</string>
+    <string name="dinnerThurs">1 bowl Mexican Chicken Chili\n389 calories, 40 g protein, 27 g carbs, 14 g fat</string>
+    <string name="breakfastFriday">Buckwheat pancakes\n2 cups skim milk\n1 cup fresh blueberries\n615 calories, 49 g protein, 71 g carbs, 15 g fat</string>
+    <string name="snack1Friday">Protein shake\n1 cup skim milk\n2 large pieces of fruit\n658 calories, 40 g protein, 84 g carbs, 18 g fat</string>
+    <string name="lunchFriday">Ham and cheese sandwich (2 slices 12-grain bread, 4 oz sliced ham, 1 thin 2-oz slice reduced fat Swiss cheese, lettuce, tomato, and mustard)\n1 large apple\n610 calories, 44 g protein, 77 g carbs, 14 g fat</string>
+    <string name="snack2Friday">Protein shake\n1 cup skim milk\n2 large pieces of fruit\n658 calories, 40 g protein, 84 g carbs, 18 g fat</string>
+    <string name="dinnerFriday">1 homemade burger on a whole wheat bun\n1 cup skim milk\n450 calories, 34 g protein, 52 g carbs, 20 g fat</string>
+    <string name="breakfastSat">Scramble 2 whole eggs + 4 egg whites mixed with &#189; cup salsa, 1 cup diced peppers and &#189; cup reduced fat pepper jack cheese. Saute eggs and add to 4 whole wheat tortillas; top with salsa\n1 medium grapefruit\n761 calories, 51 g protein, 88 g carbs, 20 g fat</string>
+    <string name="snack1Sat">2 cups oat bran made with 2 cups low-fat milk, dash of cinnamon and topped with &#189; cup raisins\n495 calories, 12 g protein, 108 g carbs, 3 g fat</string>
+    <string name="lunchSat">2 frozen organic burritos\nCarrot sticks\n620 calories, 20 g protein, 101 g carbs, 16 g fat</string>
+    <string name="snack2Sat">Triple Decker Peanut butter and banana (3 slices whole grain bread, 3 TBS peanut butter, 2 bananas. Top each slice bread with 1 TBS peanut butter, slice banana place between bread).\n1 cup organic black bean soup\n625 calories, 19 g protein, 77 g carbs, 27 g fat</string>
+    <string name="dinnerSat">6 oz tuna\n1 cup whole wheat pasta with 1 cup favorite marina sauce, mixed with steamed broccoli\n1 cup low-fat milk\n674 calories, 36 g protein, 50 g carbs, 13 g fat</string>
+    <string name="breakfastSun">1 multi-grain bagel, topped with 2 TBS reduced cream cheese and 4 oz smoked salmon\n1 pear\n640 calories, 43 g protein, 77 g carbs, 18 g fat</string>
+    <string name="action_share">Share</string>
+
 </resources>

@@ -7,9 +7,18 @@
             android:icon="@drawable/ic_local_dining_black_24dp"
             android:title="@string/diet_plan" />
         <item
-            android:id="@+id/loseWeight"
-            android:title="Lose weight in 7 days" />
-
+            android:title="Lose weight in 7 days">
+            <menu>
+                <item
+                    android:id="@+id/loseWeight1"
+                    android:icon="@drawable/ic_assignment_black_24dp"
+                    android:title="Plan 1" />
+                <item
+                    android:id="@+id/loseWeight2"
+                    android:icon="@drawable/ic_assignment_black_24dp"
+                    android:title="Plan 2" />
+            </menu>
+        </item>
         <item
             android:title="Tools"
             android:icon="@drawable/ic_menu_manage">
@@ -23,9 +32,5 @@
             </menu>
         </item>
     </group>
-    <item
-        android:id="@+id/nav_share"
-        android:icon="@drawable/ic_menu_share"
-        android:title="Share" />
 
 </menu>

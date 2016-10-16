@@ -1,0 +1,60 @@
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="60dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp"
+        tools:context="in.zattack.personaldietician.MondayDietFragment">
+
+        <TextView
+            style="@style/heading"
+            android:text="@string/breakfast" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/breakfastSat" />
+
+        <TextView
+            style="@style/heading"
+            android:text="@string/snack1" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/snack1Sat" />
+
+        <TextView
+            style="@style/heading"
+            android:text="@string/lunch" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/lunchSat" />
+
+        <TextView
+            style="@style/heading"
+            android:text="@string/snack2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/snack2Sat" />
+
+        <TextView
+            style="@style/heading"
+            android:text="@string/dinner" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/dinnerSat" />
+
+    </LinearLayout>
+</ScrollView>
