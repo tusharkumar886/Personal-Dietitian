@@ -88,14 +88,17 @@ public class MainActivity extends AppCompatActivity
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
+            toolbar.setTitle("Diet for Weight Loss");
         } else if (id == R.id.loseWeight2) {
             lose7diet2 fragment = new lose7diet2();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
                     getSupportFragmentManager().beginTransaction();
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
+            toolbar.setTitle("Diet for Weight Loss");
         } else if (id == R.id.bmi) {
-
+            Intent startBmiCalulator = new Intent(MainActivity.this,BmiCal.class);
+            startActivity(startBmiCalulator);
         } else if (id == R.id.calorie) {
 
         }
