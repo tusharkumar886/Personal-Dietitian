@@ -14,7 +14,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
-public class DietTips extends AppCompatActivity {
+public class FatBurner extends AppCompatActivity {
 
     /**
      * The {@link android.support.v4.view.PagerAdapter} that will provide
@@ -34,7 +34,7 @@ public class DietTips extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_diet_tips);
+        setContentView(R.layout.activity_fat_burner);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
@@ -56,7 +56,7 @@ public class DietTips extends AppCompatActivity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_diet_tips, menu);
+        getMenuInflater().inflate(R.menu.menu_fat_burner, menu);
         return true;
     }
 
@@ -97,26 +97,22 @@ public class DietTips extends AppCompatActivity {
         public View onCreateView(LayoutInflater inflater, ViewGroup container,
                                  Bundle savedInstanceState) {
             if(getArguments().getInt(ARG_SECTION_NUMBER)==1)
-                return inflater.inflate(R.layout.fragment_tip1, container, false);
+                return inflater.inflate(R.layout.fragment_fat1, container, false);
             else if(getArguments().getInt(ARG_SECTION_NUMBER)==2)
-                return inflater.inflate(R.layout.fragment_tip2, container, false);
+                return inflater.inflate(R.layout.fragment_fat2, container, false);
             else if(getArguments().getInt(ARG_SECTION_NUMBER)==3)
-                return inflater.inflate(R.layout.fragment_tip3, container, false);
+                return inflater.inflate(R.layout.fragment_fat3, container, false);
             else if(getArguments().getInt(ARG_SECTION_NUMBER)==4)
-                return inflater.inflate(R.layout.fragment_tip4, container, false);
+                return inflater.inflate(R.layout.fragment_fat4, container, false);
             else if(getArguments().getInt(ARG_SECTION_NUMBER)==5)
-                return inflater.inflate(R.layout.fragment_tip5, container, false);
+                return inflater.inflate(R.layout.fragment_fat5, container, false);
             else if(getArguments().getInt(ARG_SECTION_NUMBER)==6)
-                return inflater.inflate(R.layout.fragment_tip6, container, false);
+                return inflater.inflate(R.layout.fragment_fat6, container, false);
             else if(getArguments().getInt(ARG_SECTION_NUMBER)==7)
-                return inflater.inflate(R.layout.fragment_tip7, container, false);
+                return inflater.inflate(R.layout.fragment_fat7, container, false);
             else if(getArguments().getInt(ARG_SECTION_NUMBER)==8)
-                return inflater.inflate(R.layout.fragment_tip8, container, false);
-            else if(getArguments().getInt(ARG_SECTION_NUMBER)==9)
-                return inflater.inflate(R.layout.fragment_tip9, container, false);
-            else if(getArguments().getInt(ARG_SECTION_NUMBER)==10)
-                return inflater.inflate(R.layout.fragment_tip10, container, false);
-            return inflater.inflate(R.layout.fragment_diet_tips, container, false);
+                return inflater.inflate(R.layout.fragment_fat8, container, false);
+            return inflater.inflate(R.layout.fragment_fat_burner, container, false);
         }
     }
 
@@ -139,8 +135,8 @@ public class DietTips extends AppCompatActivity {
 
         @Override
         public int getCount() {
-            // Show 10 total pages.
-            return 10;
+            // Show 8 total pages.
+            return 8;
         }
 
         @Override
@@ -162,10 +158,6 @@ public class DietTips extends AppCompatActivity {
                     return "Seven";
                 case 7:
                     return "Eight";
-                case 8:
-                    return "Nine";
-                case 9:
-                    return "Ten";
             }
             return null;
         }
