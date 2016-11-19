@@ -49,5 +49,10 @@
     <string name="breakfastSun">1 multi-grain bagel, topped with 2 TBS reduced cream cheese and 4 oz smoked salmon\n1 pear\n640 calories, 43 g protein, 77 g carbs, 18 g fat</string>
     <string name="action_share">Share</string>
     <string name="title_activity_bmi_cal">BMI Calculator</string>
+    <string name="title_activity_diet_tips">Weight Loss Tips</string>
+    <string name="title_activity_fat_food">Fat Burning Food</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 
 </resources>

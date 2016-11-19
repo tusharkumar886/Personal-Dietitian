@@ -10,6 +10,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 
 public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
@@ -79,7 +80,7 @@ public class MainActivity extends AppCompatActivity
         int id = item.getItemId();
 
         if (id == R.id.dietPlan) {
-            Intent startDailyDiet = new Intent(MainActivity.this,DietPlan.class);
+            Intent startDailyDiet = new Intent(MainActivity.this,MainActivity.class);
             startActivity(startDailyDiet);
 
         } else if (id == R.id.loseWeight1) {
@@ -97,8 +98,8 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.commit();
             toolbar.setTitle("Diet for Weight Loss");
         } else if (id == R.id.bmi) {
-            Intent startBmiCalulator = new Intent(MainActivity.this,BmiCal.class);
-            startActivity(startBmiCalulator);
+            Intent startBmiCal = new Intent(MainActivity.this,BmiCal.class);
+            startActivity(startBmiCal);
         } else if (id == R.id.calorie) {
 
         }
@@ -106,5 +107,22 @@ public class MainActivity extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void weeklyDiet(View v){
+        Intent intent = new Intent(MainActivity.this,DietPlan.class);
+        startActivity(intent);
+    }
+    public void  bmiCal(View v){
+        Intent startBmiCal = new Intent(MainActivity.this,BmiCal.class);
+        startActivity(startBmiCal);
+    }
+    public void fatFood(View v){
+        Intent intent = new Intent(MainActivity.this,MainActivity.class);
+        startActivity(intent);
+    }
+    public void dietTips(View v){
+        Intent intent = new Intent(MainActivity.this,DietTips.class);
+        startActivity(intent);
     }
 }

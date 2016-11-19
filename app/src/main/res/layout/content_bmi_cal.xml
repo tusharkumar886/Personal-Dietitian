@@ -25,9 +25,9 @@
         android:id="@+id/editText5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
         android:layout_alignTop="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3"
+        android:layout_toRightOf="@+id/textView3"
         android:ems="10"
         android:inputType="number" />
 
@@ -37,8 +37,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
-        android:layout_marginLeft="14dp"
-        android:layout_marginStart="14dp"
         android:layout_marginTop="29dp"
         android:text="Height (in cm)"
         android:textColor="#000"
@@ -49,11 +47,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/editText4"
-        android:layout_marginEnd="28dp"
-        android:layout_marginRight="28dp"
-        android:layout_marginTop="22dp"
-        android:layout_toLeftOf="@+id/editText5"
-        android:layout_toStartOf="@+id/editText5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="24dp"
         android:text="Weight (in kg)"
         android:textColor="#000"
         android:textSize="20sp" />
@@ -65,8 +61,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/editText5"
-        android:layout_marginTop="177dp"
-        app:srcCompat="@drawable/bmichart" />
+        android:layout_marginTop="180dp"
+        android:src="@drawable/bmichart" />
 
     <Button
         android:id="@+id/button"
@@ -84,6 +80,7 @@
         android:layout_below="@+id/button"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="32dp"
+        android:textSize="20sp"
         android:id="@+id/bmi" />
 
 </RelativeLayout>

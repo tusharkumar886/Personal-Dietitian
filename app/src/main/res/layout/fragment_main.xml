@@ -1,14 +1,53 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:layout_margin="40dp"
+    android:orientation="vertical"
     tools:context="in.zattack.personaldietician.MainFragment">
 
     <!-- TODO: Update blank fragment layout -->
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text="Welcome!"
-        android:textSize="48sp"/>
-</FrameLayout>
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:text="Welcome"
+        android:textSize="40sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:background="@color/colorAccent"
+        android:onClick="weeklyDiet"
+        android:text="Weekly Diet Plan"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorAccent"
+        android:onClick="dietTips"
+        android:text="Weight Loss Tips"
+        android:textColor="@android:color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorAccent"
+        android:text="Fat Burning Food"
+        android:onClick="fatFood"
+        android:textColor="@android:color/white" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorAccent"
+        android:onClick="bmiCal"
+        android:text="BMI Calculator"
+        android:textColor="@android:color/white" />
+
+</LinearLayout>

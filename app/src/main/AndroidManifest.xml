@@ -46,6 +46,15 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="in.zattack.personaldietician.MainActivity" />
         </activity>
+        <activity
+            android:name=".DietTips"
+            android:label="@string/title_activity_diet_tips"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.zattack.personaldietician.MainActivity" />
+        </activity>
     </application>
 
 </manifest>

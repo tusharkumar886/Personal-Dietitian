@@ -7,6 +7,8 @@ import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import static in.zattack.personaldietician.R.id.bmi;
+
 public class BmiCal extends AppCompatActivity {
 
     @Override
@@ -20,17 +22,22 @@ public class BmiCal extends AppCompatActivity {
 
     public void bmiCalculate(View v) {
         EditText editText1 = (EditText)findViewById(R.id.editText4);
-        String heightValue = editText1.getText().toString();
         EditText editText2 = (EditText)findViewById(R.id.editText5);
-        String weightValue = editText2.getText().toString();
+        TextView bmiValue = (TextView) findViewById(bmi);
 
+        String heightValue = editText1.getText().toString();
+        String weightValue = editText2.getText().toString();
         float h = Float.parseFloat(heightValue);
         float w = Float.parseFloat(weightValue);
 
         h /=100;
         h*=h;
-        float bmi =w/h;
-        TextView bmiValue = (TextView) findViewById(R.id.bmi);
-        bmiValue.setText("Your BMI measure is " + String.valueOf(bmi));
+        float bmi;
+        try {
+            bmi = w / h;
+            bmiValue.setText("Your BMI measure is " + String.valueOf(bmi));
+        }catch (ArithmeticException e){
+            bmiValue.setText("Error!!");
+        }
     }
 }
