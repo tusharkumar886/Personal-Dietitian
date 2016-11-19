@@ -49,5 +49,13 @@
         android:onClick="bmiCal"
         android:text="BMI Calculator"
         android:textColor="@android:color/white" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:background="@color/colorAccent"
+        android:onClick="fatCal"
+        android:text="Body Fat% Calculator"
+        android:textColor="@android:color/white" />
 
 </LinearLayout>

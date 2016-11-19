@@ -9,6 +9,7 @@
 
     <application
         android:allowBackup="true"
+        android:fullBackupContent="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:supportsRtl="true"
@@ -58,6 +59,15 @@
         <activity
             android:name=".FatBurner"
             android:label="@string/title_activity_fat_burner"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="in.zattack.personaldietician.MainActivity" />
+        </activity>
+        <activity
+            android:name=".FatCal"
+            android:label="@string/title_activity_fat_cal"
             android:parentActivityName=".MainActivity"
             android:theme="@style/AppTheme.NoActionBar">
             <meta-data

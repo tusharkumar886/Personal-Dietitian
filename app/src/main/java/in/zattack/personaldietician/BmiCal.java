@@ -29,10 +29,10 @@ public class BmiCal extends AppCompatActivity {
         String weightValue = editText2.getText().toString();
         float h = Float.parseFloat(heightValue);
         float w = Float.parseFloat(weightValue);
+        float bmi;
 
         h /=100;
         h*=h;
-        float bmi;
         try {
             bmi = w / h;
             bmiValue.setText("Your BMI measure is " + String.valueOf(bmi));

@@ -118,4 +118,8 @@ public class MainActivity extends AppCompatActivity
         Intent intent = new Intent(MainActivity.this,DietTips.class);
         startActivity(intent);
     }
+    public void fatCal(View v){
+        Intent intent = new Intent(MainActivity.this,FatCal.class);
+        startActivity(intent);
+    }
 }
