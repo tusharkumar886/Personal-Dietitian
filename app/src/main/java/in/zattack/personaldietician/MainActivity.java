@@ -60,9 +60,23 @@ public class MainActivity extends AppCompatActivity
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
+
         // Handle action bar item clicks here. The action bar will
         // automatically handle clicks on the Home/Up button, so long
         // as you specify a parent activity in AndroidManifest.xml.
+        int id = item.getItemId();
+
+        //noinspection SimplifiableIfStatement
+        if (id == R.id.action_share) {
+            Intent sendIntent = new Intent();
+            sendIntent.setAction(Intent.ACTION_SEND);
+            sendIntent.putExtra(Intent.EXTRA_TEXT, "Personal Dietitian");
+            sendIntent.putExtra(Intent.EXTRA_TEXT, "https://github.com/tusharkumar886/Personal-Dietitian");
+            sendIntent.setType("text/plain");
+            startActivity(sendIntent);
+            return true;
+        }
+
         return super.onOptionsItemSelected(item);
     }
 
@@ -72,10 +86,9 @@ public class MainActivity extends AppCompatActivity
         // Handle navigation view item clicks here.
         int id = item.getItemId();
 
-        if (id == R.id.dietPlan) {
-            Intent startDailyDiet = new Intent(MainActivity.this,MainActivity.class);
-            startActivity(startDailyDiet);
-
+        if (id == R.id.home) {
+            Intent startHomeActivity = new Intent(MainActivity.this, MainActivity.class);
+            startActivity(startHomeActivity);
         } else if (id == R.id.loseWeight1) {
             lose7diet1 fragment = new lose7diet1();
             android.support.v4.app.FragmentTransaction fragmentTransaction =
@@ -90,11 +103,13 @@ public class MainActivity extends AppCompatActivity
             fragmentTransaction.replace(R.id.fragment_container, fragment);
             fragmentTransaction.commit();
             toolbar.setTitle("Diet for Weight Loss");
-        } else if (id == R.id.bmi) {
-            Intent startBmiCal = new Intent(MainActivity.this,BmiCal.class);
-            startActivity(startBmiCal);
-        } else if (id == R.id.calorie) {
+        } else if (id == R.id.diet1) {
+            Intent startDailyDiet = new Intent(MainActivity.this, DietPlan.class);
+            startActivity(startDailyDiet);
 
+        } else if (id == R.id.diet2) {
+            Intent startDailyDiet = new Intent(MainActivity.this, DietPlan.class);
+            startActivity(startDailyDiet);
         }
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -103,7 +118,7 @@ public class MainActivity extends AppCompatActivity
     }
 
     public void weeklyDiet(View v){
-        Intent intent = new Intent(MainActivity.this,DietPlan.class);
+        Intent intent = new Intent(MainActivity.this, DietPlan.class);
         startActivity(intent);
     }
     public void  bmiCal(View v){

@@ -2,7 +2,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="40dp"
+    android:layout_marginTop="40dp"
     android:orientation="vertical"
     tools:context="in.zattack.personaldietician.MainFragment">
 
@@ -12,48 +12,71 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:layout_marginTop="40dp"
-        android:text="Welcome"
-        android:textSize="40sp" />
+        android:text="You're Not Dieting"
+        android:textColor="#fff"
+        android:textSize="25sp" />
 
-    <Button
-        android:layout_width="match_parent"
+    <TextView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:background="@color/colorAccent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="You're Changing"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        android:text="Your Lifestyle"
+        android:textColor="#fff"
+        android:textSize="25sp" />
+    <Button
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/mybutton"
         android:onClick="weeklyDiet"
         android:text="Weekly Diet Plan"
         android:textColor="@android:color/white" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="205dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp"
-        android:background="@color/colorAccent"
+        android:background="@drawable/mybutton"
         android:onClick="dietTips"
         android:text="Weight Loss Tips"
         android:textColor="@android:color/white" />
 
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="225dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp"
-        android:background="@color/colorAccent"
-        android:text="Fat Burning Food"
+        android:background="@drawable/mybutton"
         android:onClick="fatFood"
+        android:text="Fat Burning Food"
         android:textColor="@android:color/white" />
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="245dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp"
-        android:background="@color/colorAccent"
+        android:background="@drawable/mybutton"
         android:onClick="bmiCal"
         android:text="BMI Calculator"
         android:textColor="@android:color/white" />
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="265dp"
         android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
         android:layout_marginTop="12dp"
-        android:background="@color/colorAccent"
+        android:background="@drawable/mybutton"
         android:onClick="fatCal"
         android:text="Body Fat% Calculator"
         android:textColor="@android:color/white" />

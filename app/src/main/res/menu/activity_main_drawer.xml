@@ -3,11 +3,24 @@
 
     <group android:checkableBehavior="single">
         <item
-            android:id="@+id/dietPlan"
+            android:id="@+id/home"
             android:icon="@drawable/ic_local_dining_black_24dp"
             android:title="Home" />
+
         <item
-            android:title="Lose weight in 7 days">
+            android:title="Diet Plan">
+            <menu>
+                <item
+                    android:id="@+id/diet1"
+                    android:icon="@drawable/ic_assignment_black_24dp"
+                    android:title="Plan 1" />
+                <item
+                    android:id="@+id/diet2"
+                    android:icon="@drawable/ic_assignment_black_24dp"
+                    android:title="Plan 2" />
+            </menu>
+        </item>
+        <item android:title="Lose weight in 7 days">
             <menu>
                 <item
                     android:id="@+id/loseWeight1"
@@ -17,18 +30,6 @@
                     android:id="@+id/loseWeight2"
                     android:icon="@drawable/ic_assignment_black_24dp"
                     android:title="Plan 2" />
-            </menu>
-        </item>
-        <item
-            android:title="Tools"
-            android:icon="@drawable/ic_menu_manage">
-            <menu>
-                <item
-                    android:id="@+id/bmi"
-                    android:title="BMI calculator" />
-                <item
-                    android:id="@+id/calorie"
-                    android:title="Calorie calulator" />
             </menu>
         </item>
     </group>
